@@ -6,7 +6,7 @@ disk: 512
 
 hooks:
   build: |
-    npm run build:larealtie
+    npm run build:larealite
 
 web:
   locations:
