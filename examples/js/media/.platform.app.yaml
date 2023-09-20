@@ -6,13 +6,13 @@ disk: 512
 
 hooks:
   build: |
-    npm run build
+    npm run build:larealtie
 
 web:
   locations:
     '/':
       # The public directory relative to the app root.
-      root: 'public'
+      root: 'examples/js/media/dist'
 
       # Forward resources to the app.
       passthru: true
