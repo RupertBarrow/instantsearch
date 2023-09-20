@@ -10,9 +10,9 @@ hooks:
 
 web:
   locations:
-    /:
+    '/':
       # The public directory relative to the app root.
-      root: 'examples/js/media/dist'
+      root: 'dist'
 
       # What files to use when serving a directory.
       index:
