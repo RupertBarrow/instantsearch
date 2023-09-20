@@ -1,6 +1,6 @@
 name: la-realite
 
-type: "'nodejs:16"
+type: 'nodejs:16'
 
 disk: 512
 
