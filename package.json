@@ -33,7 +33,8 @@
     "test:v3": "lerna run test:v3",
     "release": "shipjs prepare",
     "prepare": "lerna run prepare && patch-package",
-    "prepare-vue3": "./scripts/prepare-vue3.js"
+    "prepare-vue3": "./scripts/prepare-vue3.js",
+    "start:larealite": "lerna run start:larealite"
   },
   "devDependencies": {
     "@algolia/cache-common": "4.14.3",

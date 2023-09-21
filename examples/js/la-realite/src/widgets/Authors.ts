@@ -12,7 +12,8 @@ const createAuthorsList = () =>
 export const createAuthors = ({ container }: { container: string }) =>
   createAuthorsList()({
     container,
-    attribute: 'coauthors.nickname',
+    //attribute: 'coauthors.nickname',
+    attribute: 'channel.title',
     limit: 7,
     searchable: true,
     searchablePlaceholder: isWindowMediumSize

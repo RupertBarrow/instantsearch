@@ -1,4 +1,3 @@
-export * from './Articles';
 export * from './Authors';
 export * from './ClearFilters';
 export * from './Configuration';
@@ -8,3 +7,4 @@ export * from './SelectedTopics';
 export * from './Stats';
 export * from './Topics';
 export * from './SeeResults';
+export * from './Videos';

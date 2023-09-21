@@ -16,15 +16,15 @@ import {
 } from './widgets';
 
 const searchClient = algoliasearch(
-  '1QDAWL72TQ',
-  '47700f55d95d23f5a57744b9a027ea83'
+  'JY11EW4K9B',
+  'c8033a0c024e05ddc74c9f2e98bdce13'
 );
 
 const search = instantsearch({
   searchClient,
-  indexName: 'PROD_algolia_blog',
+  indexName: 'yt-dlp',
   routing: {
-    stateMapping: singleIndex('PROD_algolia_blog'),
+    stateMapping: singleIndex('yt-dlp'),
   },
   insights: true,
 });
